@@ -1,7 +1,7 @@
 import streamlit as st
 import spacy
 spacy.load('en_core_web_sm')
-
+nltk.download('stopwords')
 import pandas as pd
 import time, datetime
 from pyresparser import ResumeParser
